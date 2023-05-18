@@ -20,8 +20,13 @@
             </div>
           </div>
           
-            <button type="submit" value="Submit"  class="btn btn--full form">Skicka</button>
-         
+            <button type="submit" value="Submit"  class="btn btn--full form" onclick="openPopup()">Skicka</button>
+           <div class="popup" id="popup">
+            <img src="./assets/tick.png">
+            <h2>Tack!</h2>
+            <p>Nu har vi din e-postadress</p>
+            <button onclick="closePopup()" type="button">OK</button>
+          </div>
         </form>
         <script>
                   let popup = document.getElementById('popup');
