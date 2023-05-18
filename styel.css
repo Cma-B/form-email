@@ -1,0 +1,42 @@
+.popup{
+  width:400px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color:#333333;
+  visibility:hidden;
+  transition: tranform 0.3s ease-in-out;
+}
+.open-popup{
+  visibility:visible;
+}
+.popup img {
+  width: 100px;
+}
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin:30px 0 20px;
+}
+.popup p{
+  font-size: 16px;
+  font-weight: 400;
+  margin:10px 0 20px;
+}
+.popup button {
+  background-color: #4DEF98;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 1.2rem 3.2rem;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 20px;
+  border:0;
+  cursor: pointer;
+
+}
