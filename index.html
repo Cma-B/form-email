@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
   <title>Form</title>
 </head>
-
 <body>
-  <form action="https://formsubmit.co/b58db74c45dec88d24984403a9659c19" method="POST">
-    <div class="form-box">
-      <p class="subheading">
-        Skriv upp dig här.
-      </p>
-      <div class="form__group">
-        <label for="name" class="form__label">Email</label>
-        </br>
-        <input class="email" type="email" name="email" required>
-        <input type="hidden" name="_next" value="https://cma-b.github.io/form-email/thanks.html">
-      </div>
-    </div>
-
-    <button type="submit" value="Submit" class="btn btn--full form" onclick="openPopup()">Skicka</button>
-
-
+<form class="form-style">
+          <div class="form-box">
+            <p class="subheading">
+              Skriv upp dig här.
+            </p>
+            <div class="form__group" action="https://formsubmit.co/b58db74c45dec88d24984403a9659c19" method="POST">
+              <label for="name" class="form__label">Email</label>
+              </br>
+              <input class="email" type="email" name="email" required>
+              <input type="hidden" name="_autoresponse" value="your custom message">
+            </div>
+          </div>
+          <div class="button">
+            <button type="submit" value="Submit" class="btn btn--full form">Skicka</button>
+          </div>
+        </form>
 </body>
-
 </html>
